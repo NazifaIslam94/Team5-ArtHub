@@ -1,0 +1,791 @@
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Nunito", sans-serif;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.top-content {
+  padding: 0 150px;
+}
+
+/* Nav */
+nav {
+  padding-top: 40px;
+  display: flex;
+  justify-content: end;
+  float: right;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+ul li a {
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+}
+
+.home-search-bar {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background-color: #eaeaea;
+  padding-left: 8%;
+  width: 300px;
+  height: 21px;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+::placeholder {
+  color: rgb(167, 167, 167);
+}
+
+.search-icon {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  left: 23px;
+  color: #b9bdb9;
+  opacity: 50%;
+}
+
+.nav-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.brand-pages {
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 50px;
+  text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.349);
+}
+
+/* Main Container */
+.main-container {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.main-container h1 {
+  font-size: 75px;
+  font-weight: bold;
+  text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.349);
+}
+
+.main-container li {
+  list-style-type: none;
+  padding-top: 15px;
+}
+.main-container li a {
+  text-decoration: none;
+  padding: 15px;
+}
+
+.links {
+  justify-content: center;
+  display: flex;
+  list-style-type: none;
+  font-size: 19px;
+  font-weight: 300;
+  /* color: black; */
+  padding-bottom: 30px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.learn-btn-car {
+  background-color: #f7e5d8;
+  color: white;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 19px;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  position: relative;
+  bottom: 122px;
+  left: 1020px;
+  z-index: 10;
+  box-shadow: 0 5px 10px 2px rgba(90, 89, 89, 0.425);
+}
+
+.find-artist-btn-car {
+  background-color: #edd6bc;
+  color: white;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 19px;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  position: relative;
+  bottom: 200px;
+  left: 940px;
+  z-index: 10;
+  box-shadow: 0 5px 15px 5px rgba(0, 0, 0, 0.25);
+}
+
+.shop-now-btn-car {
+  background-color: white;
+  color: black;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 19px;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  position: relative;
+  bottom: 485px;
+  left: 490px;
+  z-index: 10;
+  box-shadow: 2px 5px 15px 5px rgba(0, 0, 0, 0.75);
+}
+
+.carousel-indicators button {
+  border-radius: 5px;
+  position: relative;
+  bottom: 50px;
+  left: 0;
+  height: 70px;
+  width: 70px;
+}
+
+.carousel-indicators li {
+  height: 70px;
+  width: 70px;
+}
+
+/* Trending Artists Section */
+/* Trending Artists */
+.trending-card {
+  /* width: 60%; */
+  /* height: 60%; */
+}
+
+.trending-card-top {
+  /* height: 30%; */
+  /* width: 75%; */
+  /* object-fit: cover; */
+}
+
+.card-bottom-imags {
+  background-color: #b9b9b9;
+}
+
+.trending-card-bottom {
+  width: 48.8%;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+.trending-following-text {
+  padding-top: 15px;
+}
+
+.eye-icon {
+  width: 6%;
+}
+
+.trending-artist-name {
+  font-size: 12px;
+}
+
+.trending-artist-followers {
+  font-size: 10px;
+}
+
+.trending-artist h3 {
+  padding: 30px 0;
+}
+
+.trending-profile-content {
+  padding-left: 10%;
+  padding-bottom: 10px;
+}
+
+.trending-profile-pic {
+  width: 30%;
+  border-radius: 100%;
+  margin: 20px;
+  float: left;
+  border-left: 20px;
+  border: white solid 1px;
+}
+
+.trending-profile-section {
+  background-color: #b9b9b9;
+  color: white;
+}
+.left-image {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+/* Featured Art Section */
+.featured-art {
+  padding: 50px 0;
+}
+
+.featured-art h3 {
+  padding-bottom: 20px;
+}
+
+.featured-art-card-icon {
+  position: absolute;
+  width: 25px;
+  top: 10px;
+  right: 10px;
+  background-color: white;
+  border-radius: 50%;
+  padding-top: 2px;
+}
+.featured-art-card-icon:hover {
+  cursor: pointer;
+}
+
+/* Featured Art Section */
+.featured-art {
+  padding: 50px 0;
+}
+
+.featured-art h3 {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.featured-art-card-icon {
+  position: absolute;
+  width: 25px;
+  top: 10px;
+  right: 10px;
+  background-color: white;
+  border-radius: 10rem;
+  padding-top: 2px;
+}
+
+.featured-art-card-icon:hover {
+  cursor: pointer;
+}
+
+/* Shop art work section */
+.shop-art-work {
+  padding: 0;
+}
+
+.shop-art-work-image {
+  /* display: block; */
+  /* margin-left: auto;
+  margin-right: auto; */
+  width: 1200px;
+  padding-top: 100px;
+}
+
+.shop-now-btn {
+  background-color: black;
+  color: white;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 19px;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  position: relative;
+  bottom: 150px;
+  left: 0px;
+  z-index: 10;
+  box-shadow: 2px 5px 10px 2px rgba(90, 89, 89, 0.8);
+}
+
+/* Become an artist */
+.become-an-artist-section img {
+  width: 100%;
+  padding: 100px 0 180px;
+  z-index: 1;
+}
+
+.learn-more-button {
+  background-color: #2b6364;
+  color: white;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 19px;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  position: relative;
+  bottom: 325px;
+  left: 792px;
+  z-index: 10;
+  box-shadow: 2px 5px 10px 2px rgba(32, 32, 32, 0.8);
+}
+
+/* Socials */
+.social-networks {
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.socials {
+  padding: 10px;
+  text-align: center;
+  border-top: 2px solid #c4c4c4;
+  padding-top: 40px;
+}
+
+.social-icons {
+  padding-bottom: 10px;
+}
+
+.social-icon {
+  padding: 20px 9px;
+  width: 40px;
+  object-fit: cover;
+}
+
+/* Footer */
+.ul {
+  list-style-type: none;
+}
+
+footer {
+  background-color: #c4c4c4;
+}
+
+.footer-content {
+  padding: 100px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  line-height: 40px;
+}
+
+.footer-content ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.footer-collumn {
+  padding: 10px;
+  /* font-size: 10px; */
+}
+
+.footer-content h5 {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.footer-collumn ul {
+  flex-direction: column;
+  padding-left: 0;
+  font-size: 15px;
+}
+
+.copyright {
+  text-align: center;
+  padding-bottom: 50px;
+  margin: 0;
+}
+
+/* Individula Artist Page*/
+
+.profile-container {
+  justify-content: space-around;
+  padding-top: 180px;
+  padding-left: 15px;
+  padding-bottom: 30px;
+}
+
+.profile-image {
+  float: left;
+  width: 180px;
+  border-radius: 50%;
+}
+
+.artist-stat {
+  width: 530px;
+  padding: 50px;
+  padding-top: 0px;
+  padding-left: 200px;
+}
+
+.user-name {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.eye-icon-black img {
+  width: 26px;
+  height: 14px;
+}
+
+.page-followers {
+  padding-left: 8px;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.artist-profession {
+  padding-top: 10px;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.artist-page-button {
+  justify-content: space-evenly;
+}
+
+.follow-btn-artist-page {
+  background-color: black;
+  color: white;
+  padding-right: 12px;
+  padding-left: 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 19px;
+  margin: 4px 2px;
+  box-shadow: 0 5px 10px 1px rgba(90, 89, 89, 0.8);
+}
+
+.follow-btn-artist-page:hover {
+  cursor: pointer;
+}
+
+.message-btn-artist-page {
+  background-color: black;
+  color: white;
+  padding-right: 12px;
+  padding-left: 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 19px;
+  margin: 4px 2px;
+  box-shadow: 0 5px 10px 1px rgba(90, 89, 89, 0.8);
+}
+
+.message-btn-artist-page:hover {
+  cursor: pointer;
+}
+
+.message-icon {
+  width: 21px;
+  height: 16px;
+  padding-bottom: 2.5px;
+  border-radius: 4px;
+}
+
+.profile-line {
+  background-color: #c4c4c4;
+  height: 2px;
+  width: 100%;
+  padding: 0 15%;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: white;
+  color: black;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 0;
+  font-size: 19px;
+  width: 18%;
+}
+
+.tablink:hover {
+  background-color: rgba(119, 119, 119, 0.342);
+}
+
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 100px 10px;
+  padding-bottom: 10px;
+  height: 100%;
+  font-size: 19px;
+  font-weight: 400px;
+}
+
+.tabcontent h3 {
+  font-size: 34px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+#Home {
+  background-color: white;
+}
+#News {
+  background-color: white;
+}
+#Contact {
+  background-color: white;
+}
+#About {
+  background-color: white;
+}
+
+.pin {
+  width: 20px;
+  padding-bottom: 0;
+}
+
+.pin img {
+  padding-bottom: 100px;
+}
+
+.address ul {
+  padding-left: 8px;
+  font-size: 19px;
+  display: inline-block;
+  padding-bottom: 0;
+}
+
+.phone {
+  width: 27px;
+  padding-right: 10px;
+  display: inline-block;
+  padding-top: 0;
+}
+
+.email {
+  width: 28px;
+  padding-right: 5px;
+  padding-bottom: 2px;
+}
+
+.followers {
+  padding-left: 20px;
+  font-size: 19px;
+  font-weight: 400;
+}
+.follower-name {
+  padding-left: 20px;
+  font-weight: 400;
+}
+
+.follower-image {
+  border: rgb(0, 0, 0) solid 2px;
+  border-radius: 50%;
+}
+
+.follower-container {
+  max-width: 450px;
+  padding-bottom: 30px;
+}
+
+.btn {
+  box-shadow: 0 5px 10px 1px rgba(112, 111, 111, 0.8);
+  border-radius: 10px;
+}
+
+.btn-dark {
+  border-radius: 100px;
+}
+
+figure.snip1390 {
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+  width: 33%;
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  background-color: white;
+  padding: 30px;
+  /* background-image: linear-gradient(-25deg, rgba(0, 0, 0, 0.2) 0%, rgba(255, 255, 255, 0.1) 100%); */
+  -webkit-box-sizing: border-box;
+  border-radius: 20px;
+  display: inline-block;
+  box-decoration-break: inherit;
+}
+
+figure.snip1390 *,
+figure.snip1390 *:before,
+figure.snip1390 *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+figure.snip1390 figcaption {
+  width: 100%;
+}
+
+figure.snip1390 h2,
+figure.snip1390 h4,
+figure.snip1390 blockquote {
+  margin: 0;
+}
+
+figure.snip1390 h2,
+figure.snip1390 h4 {
+  font-weight: 300;
+}
+
+figure.snip1390 h2 {
+  color: black;
+}
+
+figure.snip1390 h4 {
+  color: #a6a6a6;
+}
+
+figure.snip1390 blockquote {
+  font-size: 1em;
+  padding: 45px 20px 40px 50px;
+  margin-top: 30px;
+  border-radius: 5px;
+  text-align: left;
+  position: relative;
+}
+
+figure.snip1390 blockquote:before {
+  font-family: "FontAwesome";
+  content: "\201C";
+  position: absolute;
+  font-size: 70px;
+  opacity: 0.25;
+  font-style: normal;
+  top: 0px;
+  left: 20px;
+}
+
+figure.snip1390 .profile {
+  width: 100px;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.4);
+  margin-bottom: 10px;
+  border: solid 3px black;
+}
+
+.tab-line-bottom {
+  background-color: #c4c4c4;
+  height: 2px;
+  width: 100%;
+  padding: 0 15%;
+}
+
+.artist-sub-heading {
+  font-size: 34px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  padding-top: 60px;
+}
+
+.column-art {
+  float: left;
+  display: inline-block;
+  width: 33.33%;
+  padding-right: 35px;
+  padding-left: 15px;
+  padding-bottom: 35px;
+  border-radius: 20px;
+}
+
+.row-art::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column-art-final {
+  float: left;
+  display: inline-block;
+  width: 33.33%;
+  padding-right: 35px;
+  padding-left: 15px;
+  padding-bottom: 35px;
+  border-radius: 20px;
+  padding-bottom: 300px;
+}
+
+.pinned-art {
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0 5px 10px 1px rgba(90, 89, 89, 0.8);
+}
+
+.pinned-art-final {
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0 5px 10px 1px rgba(90, 89, 89, 0.8);
+}
+
+.pinned-art:hover {
+  cursor: pointer;
+}
+
+.pinned-art-final:hover {
+  cursor: pointer;
+}
+
+.show-more-btn {
+  background-color: black;
+  color: white;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 19px;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  position: relative;
+  bottom: 250px;
+  left: 500px;
+  z-index: 10;
+  box-shadow: 2px 5px 10px 2px rgba(90, 89, 89, 0.8);
+}
+
+/* Artist's Hub */
+
+/* Learning Centre */
